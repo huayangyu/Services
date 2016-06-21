@@ -7,9 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A3A40C2021C7A90F94E3DD3 /* libPods-XYService.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99AD173F578FBBF7150006FA /* libPods-XYService.a */; };
 		C4AA92B21D1399BA0052D46F /* XYService.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C4AA92B11D1399BA0052D46F /* XYService.h */; };
-		C4AA92B41D1399BA0052D46F /* XYService.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AA92B31D1399BA0052D46F /* XYService.m */; };
+		C4AA92D81D139AF40052D46F /* ApiProxyCasa.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AA92BD1D139AF40052D46F /* ApiProxyCasa.m */; };
+		C4AA92D91D139AF40052D46F /* BaseApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AA92C01D139AF40052D46F /* BaseApiManager.m */; };
+		C4AA92DA1D139AF40052D46F /* NSDictionary+MyCraft.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AA92C31D139AF40052D46F /* NSDictionary+MyCraft.m */; };
+		C4AA92DB1D139AF40052D46F /* NSURLRequest+MyCraft.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AA92C51D139AF40052D46F /* NSURLRequest+MyCraft.m */; };
+		C4AA92DC1D139AF40052D46F /* RequestGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AA92C81D139AF40052D46F /* RequestGenerator.m */; };
+		C4AA92DD1D139AF40052D46F /* ApiService.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AA92CB1D139AF40052D46F /* ApiService.m */; };
+		C4AA92DE1D139AF40052D46F /* ApiServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AA92CD1D139AF40052D46F /* ApiServiceFactory.m */; };
+		C4AA92DF1D139AF40052D46F /* TestRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AA92CF1D139AF40052D46F /* TestRequest.m */; };
+		C4AA92E01D139AF40052D46F /* XYApiResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AA92D11D139AF40052D46F /* XYApiResponse.m */; };
+		C4AA92E11D139AF40052D46F /* XYAppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AA92D31D139AF40052D46F /* XYAppContext.m */; };
+		C4AA92E21D139AF40052D46F /* XYCommonService.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AA92D61D139AF40052D46F /* XYCommonService.m */; };
+		C4AA92E41D13A0CC0052D46F /* XYService.h in Headers */ = {isa = PBXBuildFile; fileRef = C4AA92B11D1399BA0052D46F /* XYService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4AA92E51D13A0CC0052D46F /* ApiProxyCasa.h in Headers */ = {isa = PBXBuildFile; fileRef = C4AA92BC1D139AF40052D46F /* ApiProxyCasa.h */; };
+		C4AA92E61D13A0CC0052D46F /* BaseApiManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C4AA92BF1D139AF40052D46F /* BaseApiManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4AA92E71D13A0CC0052D46F /* NSDictionary+MyCraft.h in Headers */ = {isa = PBXBuildFile; fileRef = C4AA92C21D139AF40052D46F /* NSDictionary+MyCraft.h */; };
+		C4AA92E81D13A0CC0052D46F /* NSURLRequest+MyCraft.h in Headers */ = {isa = PBXBuildFile; fileRef = C4AA92C41D139AF40052D46F /* NSURLRequest+MyCraft.h */; };
+		C4AA92E91D13A0CC0052D46F /* RequestGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = C4AA92C71D139AF40052D46F /* RequestGenerator.h */; };
+		C4AA92EA1D13A0CC0052D46F /* ApiService.h in Headers */ = {isa = PBXBuildFile; fileRef = C4AA92CA1D139AF40052D46F /* ApiService.h */; };
+		C4AA92EB1D13A0CC0052D46F /* ApiServiceFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = C4AA92CC1D139AF40052D46F /* ApiServiceFactory.h */; };
+		C4AA92EC1D13A0CC0052D46F /* TestRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C4AA92CE1D139AF40052D46F /* TestRequest.h */; };
+		C4AA92ED1D13A0CC0052D46F /* XYApiResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = C4AA92D01D139AF40052D46F /* XYApiResponse.h */; };
+		C4AA92EE1D13A0CC0052D46F /* XYAppContext.h in Headers */ = {isa = PBXBuildFile; fileRef = C4AA92D21D139AF40052D46F /* XYAppContext.h */; };
+		C4AA92EF1D13A0CC0052D46F /* XYCommonService.h in Headers */ = {isa = PBXBuildFile; fileRef = C4AA92D51D139AF40052D46F /* XYCommonService.h */; };
+		C4AA92F01D13A0CC0052D46F /* XYNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C4AA92D71D139AF40052D46F /* XYNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4AA92F21D13C4F60052D46F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4AA92F11D13C4F60052D46F /* Foundation.framework */; };
+		C4AA92F41D13C4FE0052D46F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4AA92F31D13C4FE0052D46F /* UIKit.framework */; };
+		C4AA92F91D13D7DD0052D46F /* MyGithubInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = C4AA92F71D13D7DD0052D46F /* MyGithubInfo.h */; };
+		C4AA92FA1D13D7DD0052D46F /* MyGithubInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AA92F81D13D7DD0052D46F /* MyGithubInfo.m */; };
+		C4AA93041D13D9A60052D46F /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AA93031D13D9A60052D46F /* Tests.m */; };
+		C4AA93061D13D9A60052D46F /* libXYService.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4AA92AE1D1399BA0052D46F /* libXYService.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4AA93071D13D9A60052D46F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4AA92A61D1399BA0052D46F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4AA92AD1D1399BA0052D46F;
+			remoteInfo = XYService;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		C4AA92AC1D1399BA0052D46F /* CopyFiles */ = {
@@ -25,9 +65,42 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		047349AA20F90C7241A8F8CE /* Pods-XYService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYService.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XYService/Pods-XYService.debug.xcconfig"; sourceTree = "<group>"; };
+		250533449CD808E78FDCD59A /* Pods-XYService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYService.release.xcconfig"; path = "Pods/Target Support Files/Pods-XYService/Pods-XYService.release.xcconfig"; sourceTree = "<group>"; };
+		99AD173F578FBBF7150006FA /* libPods-XYService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XYService.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4AA92AE1D1399BA0052D46F /* libXYService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXYService.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4AA92B11D1399BA0052D46F /* XYService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYService.h; sourceTree = "<group>"; };
-		C4AA92B31D1399BA0052D46F /* XYService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYService.m; sourceTree = "<group>"; };
+		C4AA92BC1D139AF40052D46F /* ApiProxyCasa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiProxyCasa.h; sourceTree = "<group>"; };
+		C4AA92BD1D139AF40052D46F /* ApiProxyCasa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiProxyCasa.m; sourceTree = "<group>"; };
+		C4AA92BF1D139AF40052D46F /* BaseApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseApiManager.h; sourceTree = "<group>"; };
+		C4AA92C01D139AF40052D46F /* BaseApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseApiManager.m; sourceTree = "<group>"; };
+		C4AA92C21D139AF40052D46F /* NSDictionary+MyCraft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MyCraft.h"; sourceTree = "<group>"; };
+		C4AA92C31D139AF40052D46F /* NSDictionary+MyCraft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MyCraft.m"; sourceTree = "<group>"; };
+		C4AA92C41D139AF40052D46F /* NSURLRequest+MyCraft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+MyCraft.h"; sourceTree = "<group>"; };
+		C4AA92C51D139AF40052D46F /* NSURLRequest+MyCraft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+MyCraft.m"; sourceTree = "<group>"; };
+		C4AA92C71D139AF40052D46F /* RequestGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestGenerator.h; sourceTree = "<group>"; };
+		C4AA92C81D139AF40052D46F /* RequestGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestGenerator.m; sourceTree = "<group>"; };
+		C4AA92CA1D139AF40052D46F /* ApiService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiService.h; sourceTree = "<group>"; };
+		C4AA92CB1D139AF40052D46F /* ApiService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiService.m; sourceTree = "<group>"; };
+		C4AA92CC1D139AF40052D46F /* ApiServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiServiceFactory.h; sourceTree = "<group>"; };
+		C4AA92CD1D139AF40052D46F /* ApiServiceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiServiceFactory.m; sourceTree = "<group>"; };
+		C4AA92CE1D139AF40052D46F /* TestRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestRequest.h; sourceTree = "<group>"; };
+		C4AA92CF1D139AF40052D46F /* TestRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestRequest.m; sourceTree = "<group>"; };
+		C4AA92D01D139AF40052D46F /* XYApiResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYApiResponse.h; sourceTree = "<group>"; };
+		C4AA92D11D139AF40052D46F /* XYApiResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYApiResponse.m; sourceTree = "<group>"; };
+		C4AA92D21D139AF40052D46F /* XYAppContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYAppContext.h; sourceTree = "<group>"; };
+		C4AA92D31D139AF40052D46F /* XYAppContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYAppContext.m; sourceTree = "<group>"; };
+		C4AA92D51D139AF40052D46F /* XYCommonService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYCommonService.h; sourceTree = "<group>"; };
+		C4AA92D61D139AF40052D46F /* XYCommonService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYCommonService.m; sourceTree = "<group>"; };
+		C4AA92D71D139AF40052D46F /* XYNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYNetworking.h; sourceTree = "<group>"; };
+		C4AA92F11D13C4F60052D46F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C4AA92F31D13C4FE0052D46F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C4AA92F51D13D46F0052D46F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C4AA92F71D13D7DD0052D46F /* MyGithubInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyGithubInfo.h; sourceTree = "<group>"; };
+		C4AA92F81D13D7DD0052D46F /* MyGithubInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyGithubInfo.m; sourceTree = "<group>"; };
+		C4AA93011D13D9A50052D46F /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4AA93031D13D9A60052D46F /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		C4AA93051D13D9A60052D46F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +108,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4AA92F41D13C4FE0052D46F /* UIKit.framework in Frameworks */,
+				C4AA92F21D13C4F60052D46F /* Foundation.framework in Frameworks */,
+				4A3A40C2021C7A90F94E3DD3 /* libPods-XYService.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4AA92FE1D13D9A50052D46F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4AA93061D13D9A60052D46F /* libXYService.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B6B1AD236F0B66C0D4130EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4AA92F51D13D46F0052D46F /* SystemConfiguration.framework */,
+				99AD173F578FBBF7150006FA /* libPods-XYService.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DE87729E233D23444ED8435 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				047349AA20F90C7241A8F8CE /* Pods-XYService.debug.xcconfig */,
+				250533449CD808E78FDCD59A /* Pods-XYService.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C4AA92A51D1399BA0052D46F = {
 			isa = PBXGroup;
 			children = (
+				C4AA92F31D13C4FE0052D46F /* UIKit.framework */,
+				C4AA92F11D13C4F60052D46F /* Foundation.framework */,
 				C4AA92B01D1399BA0052D46F /* XYService */,
+				C4AA93021D13D9A60052D46F /* Tests */,
 				C4AA92AF1D1399BA0052D46F /* Products */,
+				5DE87729E233D23444ED8435 /* Pods */,
+				2B6B1AD236F0B66C0D4130EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				C4AA92AE1D1399BA0052D46F /* libXYService.a */,
+				C4AA93011D13D9A50052D46F /* Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,21 +169,137 @@
 			isa = PBXGroup;
 			children = (
 				C4AA92B11D1399BA0052D46F /* XYService.h */,
-				C4AA92B31D1399BA0052D46F /* XYService.m */,
+				C4AA92BA1D139AF40052D46F /* XYNetworking */,
+				C4AA92F71D13D7DD0052D46F /* MyGithubInfo.h */,
+				C4AA92F81D13D7DD0052D46F /* MyGithubInfo.m */,
 			);
 			path = XYService;
 			sourceTree = "<group>";
 		};
+		C4AA92BA1D139AF40052D46F /* XYNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				C4AA92BB1D139AF40052D46F /* ApiTakeOff */,
+				C4AA92BE1D139AF40052D46F /* BaseManager */,
+				C4AA92C11D139AF40052D46F /* Category */,
+				C4AA92C21D139AF40052D46F /* NSDictionary+MyCraft.h */,
+				C4AA92C31D139AF40052D46F /* NSDictionary+MyCraft.m */,
+				C4AA92C41D139AF40052D46F /* NSURLRequest+MyCraft.h */,
+				C4AA92C51D139AF40052D46F /* NSURLRequest+MyCraft.m */,
+				C4AA92C61D139AF40052D46F /* RequestGenerator */,
+				C4AA92C91D139AF40052D46F /* Services */,
+				C4AA92CE1D139AF40052D46F /* TestRequest.h */,
+				C4AA92CF1D139AF40052D46F /* TestRequest.m */,
+				C4AA92D01D139AF40052D46F /* XYApiResponse.h */,
+				C4AA92D11D139AF40052D46F /* XYApiResponse.m */,
+				C4AA92D21D139AF40052D46F /* XYAppContext.h */,
+				C4AA92D31D139AF40052D46F /* XYAppContext.m */,
+				C4AA92D41D139AF40052D46F /* XYCommonService */,
+				C4AA92D71D139AF40052D46F /* XYNetworking.h */,
+			);
+			path = XYNetworking;
+			sourceTree = "<group>";
+		};
+		C4AA92BB1D139AF40052D46F /* ApiTakeOff */ = {
+			isa = PBXGroup;
+			children = (
+				C4AA92BC1D139AF40052D46F /* ApiProxyCasa.h */,
+				C4AA92BD1D139AF40052D46F /* ApiProxyCasa.m */,
+			);
+			path = ApiTakeOff;
+			sourceTree = "<group>";
+		};
+		C4AA92BE1D139AF40052D46F /* BaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				C4AA92BF1D139AF40052D46F /* BaseApiManager.h */,
+				C4AA92C01D139AF40052D46F /* BaseApiManager.m */,
+			);
+			path = BaseManager;
+			sourceTree = "<group>";
+		};
+		C4AA92C11D139AF40052D46F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		C4AA92C61D139AF40052D46F /* RequestGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				C4AA92C71D139AF40052D46F /* RequestGenerator.h */,
+				C4AA92C81D139AF40052D46F /* RequestGenerator.m */,
+			);
+			path = RequestGenerator;
+			sourceTree = "<group>";
+		};
+		C4AA92C91D139AF40052D46F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C4AA92CA1D139AF40052D46F /* ApiService.h */,
+				C4AA92CB1D139AF40052D46F /* ApiService.m */,
+				C4AA92CC1D139AF40052D46F /* ApiServiceFactory.h */,
+				C4AA92CD1D139AF40052D46F /* ApiServiceFactory.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C4AA92D41D139AF40052D46F /* XYCommonService */ = {
+			isa = PBXGroup;
+			children = (
+				C4AA92D51D139AF40052D46F /* XYCommonService.h */,
+				C4AA92D61D139AF40052D46F /* XYCommonService.m */,
+			);
+			path = XYCommonService;
+			sourceTree = "<group>";
+		};
+		C4AA93021D13D9A60052D46F /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C4AA93031D13D9A60052D46F /* Tests.m */,
+				C4AA93051D13D9A60052D46F /* Info.plist */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C4AA92E31D13A0AC0052D46F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4AA92E41D13A0CC0052D46F /* XYService.h in Headers */,
+				C4AA92E61D13A0CC0052D46F /* BaseApiManager.h in Headers */,
+				C4AA92F01D13A0CC0052D46F /* XYNetworking.h in Headers */,
+				C4AA92E51D13A0CC0052D46F /* ApiProxyCasa.h in Headers */,
+				C4AA92E71D13A0CC0052D46F /* NSDictionary+MyCraft.h in Headers */,
+				C4AA92E81D13A0CC0052D46F /* NSURLRequest+MyCraft.h in Headers */,
+				C4AA92E91D13A0CC0052D46F /* RequestGenerator.h in Headers */,
+				C4AA92F91D13D7DD0052D46F /* MyGithubInfo.h in Headers */,
+				C4AA92EA1D13A0CC0052D46F /* ApiService.h in Headers */,
+				C4AA92EB1D13A0CC0052D46F /* ApiServiceFactory.h in Headers */,
+				C4AA92EC1D13A0CC0052D46F /* TestRequest.h in Headers */,
+				C4AA92ED1D13A0CC0052D46F /* XYApiResponse.h in Headers */,
+				C4AA92EE1D13A0CC0052D46F /* XYAppContext.h in Headers */,
+				C4AA92EF1D13A0CC0052D46F /* XYCommonService.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		C4AA92AD1D1399BA0052D46F /* XYService */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4AA92B71D1399BA0052D46F /* Build configuration list for PBXNativeTarget "XYService" */;
 			buildPhases = (
+				518F5AF2B509514BAEF48F1C /* Check Pods Manifest.lock */,
 				C4AA92AA1D1399BA0052D46F /* Sources */,
 				C4AA92AB1D1399BA0052D46F /* Frameworks */,
 				C4AA92AC1D1399BA0052D46F /* CopyFiles */,
+				C4AA92E31D13A0AC0052D46F /* Headers */,
+				85C38895B48C383A7A103583 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -85,6 +309,24 @@
 			productName = XYService;
 			productReference = C4AA92AE1D1399BA0052D46F /* libXYService.a */;
 			productType = "com.apple.product-type.library.static";
+		};
+		C4AA93001D13D9A50052D46F /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4AA93091D13D9A60052D46F /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				C4AA92FD1D13D9A50052D46F /* Sources */,
+				C4AA92FE1D13D9A50052D46F /* Frameworks */,
+				C4AA92FF1D13D9A50052D46F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4AA93081D13D9A60052D46F /* PBXTargetDependency */,
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = C4AA93011D13D9A50052D46F /* Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -96,6 +338,9 @@
 				ORGANIZATIONNAME = XY;
 				TargetAttributes = {
 					C4AA92AD1D1399BA0052D46F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C4AA93001D13D9A50052D46F = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
@@ -113,20 +358,91 @@
 			projectRoot = "";
 			targets = (
 				C4AA92AD1D1399BA0052D46F /* XYService */,
+				C4AA93001D13D9A50052D46F /* Tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4AA92FF1D13D9A50052D46F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		518F5AF2B509514BAEF48F1C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		85C38895B48C383A7A103583 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XYService/Pods-XYService-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C4AA92AA1D1399BA0052D46F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4AA92B41D1399BA0052D46F /* XYService.m in Sources */,
+				C4AA92E01D139AF40052D46F /* XYApiResponse.m in Sources */,
+				C4AA92DE1D139AF40052D46F /* ApiServiceFactory.m in Sources */,
+				C4AA92FA1D13D7DD0052D46F /* MyGithubInfo.m in Sources */,
+				C4AA92DF1D139AF40052D46F /* TestRequest.m in Sources */,
+				C4AA92DD1D139AF40052D46F /* ApiService.m in Sources */,
+				C4AA92E11D139AF40052D46F /* XYAppContext.m in Sources */,
+				C4AA92DC1D139AF40052D46F /* RequestGenerator.m in Sources */,
+				C4AA92E21D139AF40052D46F /* XYCommonService.m in Sources */,
+				C4AA92D81D139AF40052D46F /* ApiProxyCasa.m in Sources */,
+				C4AA92DA1D139AF40052D46F /* NSDictionary+MyCraft.m in Sources */,
+				C4AA92D91D139AF40052D46F /* BaseApiManager.m in Sources */,
+				C4AA92DB1D139AF40052D46F /* NSURLRequest+MyCraft.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4AA92FD1D13D9A50052D46F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4AA93041D13D9A60052D46F /* Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4AA93081D13D9A60052D46F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4AA92AD1D1399BA0052D46F /* XYService */;
+			targetProxy = C4AA93071D13D9A60052D46F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		C4AA92B51D1399BA0052D46F /* Debug */ = {
@@ -213,19 +529,49 @@
 		};
 		C4AA92B81D1399BA0052D46F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 047349AA20F90C7241A8F8CE /* Pods-XYService.debug.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
 			};
 			name = Debug;
 		};
 		C4AA92B91D1399BA0052D46F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 250533449CD808E78FDCD59A /* Pods-XYService.release.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		C4AA930A1D13D9A60052D46F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 047349AA20F90C7241A8F8CE /* Pods-XYService.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xy.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4AA930B1D13D9A60052D46F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 250533449CD808E78FDCD59A /* Pods-XYService.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xy.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -246,6 +592,15 @@
 			buildConfigurations = (
 				C4AA92B81D1399BA0052D46F /* Debug */,
 				C4AA92B91D1399BA0052D46F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4AA93091D13D9A60052D46F /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4AA930A1D13D9A60052D46F /* Debug */,
+				C4AA930B1D13D9A60052D46F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

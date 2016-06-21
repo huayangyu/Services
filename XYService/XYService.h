@@ -7,6 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "XYNetworking.h"
+#import "XYCommonService.h"
+#import "BaseApiManager.h"
+
+#define kServerPath @""
 
 @interface XYService : NSObject
 
